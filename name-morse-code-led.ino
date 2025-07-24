@@ -24,6 +24,7 @@ void loop() {
         digitalWrite(7,HIGH);
         delay(Dash);
         digitalWrite(7,LOW);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
         delay(Flash);
