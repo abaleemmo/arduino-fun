@@ -1,5 +1,8 @@
+int Dot = 1000;
+int Dash = 2000;
+int Flash = 500;
+
 void setup() {
-  
   pinMode(7,OUTPUT);
   // pin 7 is the main LED that will be blinking the morse code for my name
   // it will blink for a second for a dot, and a 2 seconds for a dash
@@ -8,350 +11,349 @@ void setup() {
     // one flash of the pin 8 LED means that the letter is done 
     // two flashes of the pin 8 LED means that the first name is done
     // three flashes of the pin 8 LED means that it has completed my name
-
 }
 
 void loop() {
-  // first name 
+   // first name 
     // A: .-
       // PIN 7 MAIN LED
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW); 
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // B: -...
       // PIN 7 MAIN LED
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // D: -..
       // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // U: ..-
       // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // L: .-..
       // PIN 7 MAIN LED 
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(2000);
+          delay(Dash);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // -: -
       // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // A: .-
       // PIN 7 MAIN LED
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW); 
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // L: .-..
       // PIN 7 MAIN LED 
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(2000);
+          delay(Dash);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
           digitalWrite(7,HIGH);
-          delay(1000);
+          delay(Dot);
           digitalWrite(7,LOW);
-          delay(500);
+          delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // E: .
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // E: .
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);  
+        delay(Flash);  
     // M: --
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
   // double flash after first name
     // PIN 8 INDICATOR LED
       digitalWrite(8,HIGH);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,LOW);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,HIGH);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,LOW);
-      delay(500);
+      delay(Flash);
   // last name 
     // M: --
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // O: ---
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // H: ....  
       // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // A: .-
       // PIN 7 MAIN LED
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW); 
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // M: --
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // M: --
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // E:
        // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED 
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
     // D: -..
       // PIN 7 MAIN LED 
         digitalWrite(7,HIGH);
-        delay(2000);
+        delay(Dash);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
         digitalWrite(7,HIGH);
-        delay(1000);
+        delay(Dot);
         digitalWrite(7,LOW);
-        delay(500);
+        delay(Flash);
       // PIN 8 INDICATOR LED
         digitalWrite(8,HIGH);
-        delay(500);
+        delay(Flash);
         digitalWrite(8,LOW);
-        delay(500);
+        delay(Flash);
   // triple flash after full name
     // PIN 8 INDICATOR LED
       digitalWrite(8,HIGH);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,LOW);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,HIGH);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,LOW);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,HIGH);
-      delay(500);
+      delay(Flash);
       digitalWrite(8,LOW);
-      delay(500);
+      delay(Flash);
 }
